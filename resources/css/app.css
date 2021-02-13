@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+.handwriting {
+    font-family: "Nothing You Could Do", cursive;
+}
+
+.text-shadow {
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.background {
+    background: linear-gradient(
+            135deg,
+            rgba(10, 126, 73, 1) 0%,
+            rgba(12, 157, 74, 1) 65%,
+            rgba(179, 223, 100, 1) 100%
+        ),
+        url(~/img/natural_paper.png), repeat;
+    background-blend-mode: multiply, screen, color-burn;
+}
